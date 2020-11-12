@@ -27,7 +27,7 @@ var imgNo = window.location.hash.substr(1);
 if (!imgNo) {
     alert('请指定编号');    
 } else {
-    var imgUrl = 'https://legendtired.github.io/pano/images/' + imgNo + ' 1.jpg';
+    var imgUrl = 'images/' + imgNo + ' 1.jpg';
     pannellum.viewer('panorama', {
         "type": "equirectangular",
         "panorama": imgUrl,
